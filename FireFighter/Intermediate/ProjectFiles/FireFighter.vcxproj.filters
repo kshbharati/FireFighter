@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\FireFighter.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6F0F690C-AD87-45DA-8AEC-8F399C092855}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FireFighter.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FireFighterEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{EF5F31FC-2EF1-411A-8EC1-F2C342EF530E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\FireFighter">
+			<UniqueIdentifier>{11BCFB0D-3C2A-4E54-A96A-B4567FBCDC56}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\FireFighter\FireFighter.Build.cs">
+			<Filter>Source\FireFighter</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\FireFighter\FireFighter.cpp">
+			<Filter>Source\FireFighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FireFighter\FireFighter.h">
+			<Filter>Source\FireFighter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FireFighter\FireFighterCharacter.cpp">
+			<Filter>Source\FireFighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FireFighter\FireFighterCharacter.h">
+			<Filter>Source\FireFighter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FireFighter\FireFighterGameMode.cpp">
+			<Filter>Source\FireFighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FireFighter\FireFighterGameMode.h">
+			<Filter>Source\FireFighter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FireFighter\FireFighterHUD.cpp">
+			<Filter>Source\FireFighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FireFighter\FireFighterHUD.h">
+			<Filter>Source\FireFighter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\FireFighter\FireFighterProjectile.cpp">
+			<Filter>Source\FireFighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\FireFighter\FireFighterProjectile.h">
+			<Filter>Source\FireFighter</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
